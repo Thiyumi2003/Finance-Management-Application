@@ -28,34 +28,35 @@ Modern MERN-based personal finance management app with authentication, multi-acc
 
 ### Dashboard And Management
 
-#### Accounts Page
-
-<p align="center">
-   <img src="screenshots/accounts.png" alt="Accounts" width="520" />
-</p>
 <table>
    <tr>
       <td align="center">
          <img src="screenshots/dashboard.png" alt="Dashboard" width="320" />
-         <br />Dashboard
+         <br />Dashboard page
       </td>
       <td align="center">
+         <img src="screenshots/accounts.png" alt="Accounts" width="320" />
+         <br />Accounts page
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
          <img src="screenshots/catogories.png" alt="Categories" width="320" />
-         <br />Categories
+         <br />Categories page
       </td>
       <td align="center">
          <img src="screenshots/transaction.png" alt="Transactions" width="320" />
-         <br />Transactions
+         <br />Transactions page
       </td>
    </tr>
    <tr>
       <td align="center">
          <img src="screenshots/transfer.png" alt="Transfers" width="320" />
-         <br />Transfers
+         <br />Transfers page
       </td>
       <td align="center">
          <img src="screenshots/report.png" alt="Monthly report" width="320" />
-         <br />Monthly report
+         <br />Monthly report page
       </td>
    </tr>
 </table>
