@@ -18,7 +18,7 @@ export default function LoginPage() {
 
     try {
       await login(formData);
-      navigate('/');
+      navigate('/dashboard');
     } catch (loginError) {
       setError(loginError.response?.data?.message || 'Login failed');
     } finally {

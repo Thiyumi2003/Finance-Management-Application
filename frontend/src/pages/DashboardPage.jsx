@@ -76,19 +76,19 @@ export default function DashboardPage() {
           ))}
         </section>
         <div className="flex flex-wrap gap-3">
-          <Link to="/accounts" className="inline-flex rounded-2xl bg-cyan-400 px-4 py-2 font-semibold text-slate-950">
+          <Link to="/dashboard/accounts" className="inline-flex rounded-2xl bg-cyan-400 px-4 py-2 font-semibold text-slate-950">
             Manage Accounts
           </Link>
-          <Link to="/categories" className="inline-flex rounded-2xl border border-white/10 px-4 py-2 font-semibold text-slate-100">
+          <Link to="/dashboard/categories" className="inline-flex rounded-2xl border border-white/10 px-4 py-2 font-semibold text-slate-100">
             Manage Categories
           </Link>
-          <Link to="/transactions" className="inline-flex rounded-2xl border border-white/10 px-4 py-2 font-semibold text-slate-100">
+          <Link to="/dashboard/transactions" className="inline-flex rounded-2xl border border-white/10 px-4 py-2 font-semibold text-slate-100">
             Manage Transactions
           </Link>
-          <Link to="/transfers" className="inline-flex rounded-2xl border border-white/10 px-4 py-2 font-semibold text-slate-100">
+          <Link to="/dashboard/transfers" className="inline-flex rounded-2xl border border-white/10 px-4 py-2 font-semibold text-slate-100">
             Transfers
           </Link>
-          <Link to="/reports" className="inline-flex rounded-2xl border border-white/10 px-4 py-2 font-semibold text-slate-100">
+          <Link to="/dashboard/reports" className="inline-flex rounded-2xl border border-white/10 px-4 py-2 font-semibold text-slate-100">
             Monthly Reports
           </Link>
         </div>

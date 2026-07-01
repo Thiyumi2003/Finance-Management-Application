@@ -4,12 +4,12 @@ import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/ToastContext';
 
 const navigationItems = [
-  { to: '/', label: 'Dashboard' },
-  { to: '/accounts', label: 'Accounts' },
-  { to: '/categories', label: 'Categories' },
-  { to: '/transactions', label: 'Transactions' },
-  { to: '/transfers', label: 'Transfers' },
-  { to: '/reports', label: 'Monthly Reports' }
+  { to: '/dashboard', label: 'Dashboard' },
+  { to: '/dashboard/accounts', label: 'Accounts' },
+  { to: '/dashboard/categories', label: 'Categories' },
+  { to: '/dashboard/transactions', label: 'Transactions' },
+  { to: '/dashboard/transfers', label: 'Transfers' },
+  { to: '/dashboard/reports', label: 'Monthly Reports' }
 ];
 
 export default function MainLayout() {
@@ -37,7 +37,7 @@ export default function MainLayout() {
             <NavLink
               key={item.to}
               to={item.to}
-              end={item.to === '/'}
+              end={item.to === '/dashboard'}
               className={({ isActive }) =>
                 [
                   'rounded-2xl px-4 py-3 text-sm font-medium transition',

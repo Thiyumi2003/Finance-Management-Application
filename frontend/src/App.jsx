@@ -6,6 +6,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 import Spinner from './components/Spinner';
 import MainLayout from './layouts/MainLayout';
 import { ToastProvider } from './context/ToastContext';
+const HomePage = lazy(() => import('./pages/HomePage'));
 
 const CategoriesPage = lazy(() => import('./pages/CategoriesPage'));
 const AccountsPage = lazy(() => import('./pages/AccountsPage'));
@@ -23,7 +24,7 @@ function PublicRedirect() {
     return <div className="flex min-h-screen items-center justify-center text-slate-200">Loading...</div>;
   }
 
-  return user ? <Navigate to="/" replace /> : <Navigate to="/login" replace />;
+  return user ? <Navigate to="/dashboard" replace /> : <Navigate to="/" replace />;
 }
 
 export default function App() {
@@ -33,10 +34,11 @@ export default function App() {
         <BrowserRouter>
           <Suspense fallback={<Spinner />}>
             <Routes>
+              <Route path="/" element={<HomePage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/register" element={<RegisterPage />} />
               <Route element={<ProtectedRoute />}>
-                <Route element={<MainLayout />}>
+                <Route path="/dashboard" element={<MainLayout />}>
                   <Route index element={<DashboardPage />} />
                   <Route path="accounts" element={<AccountsPage />} />
                   <Route path="categories" element={<CategoriesPage />} />
