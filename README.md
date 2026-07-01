@@ -6,18 +6,60 @@ Modern MERN-based personal finance management app with authentication, multi-acc
 
 ### Public Pages
 
-![Home page](screenshots/home.png)
-![Login page](screenshots/login.png)
-![Register page](screenshots/register.png)
+<table>
+   <tr>
+      <td align="center">
+         <img src="screenshots/home.png" alt="Home page" width="320" />
+         <br />Home page
+      </td>
+      <td align="center">
+         <img src="screenshots/login.png" alt="Login page" width="320" />
+         <br />Login page
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <img src="screenshots/register.png" alt="Register page" width="320" />
+         <br />Register page
+      </td>
+      <td></td>
+   </tr>
+</table>
 
 ### Dashboard And Management
 
-![Dashboard](screenshots/dashboard.png)
-![Accounts](screenshots/accounts.png)
-![Categories](screenshots/catogories.png)
-![Transactions](screenshots/transaction.png)
-![Transfers](screenshots/transfer.png)
-![Monthly report](screenshots/report.png)
+<table>
+   <tr>
+      <td align="center">
+         <img src="screenshots/dashboard.png" alt="Dashboard" width="320" />
+         <br />Dashboard
+      </td>
+      <td align="center">
+         <img src="screenshots/accounts.png" alt="Accounts" width="320" />
+         <br />Accounts
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <img src="screenshots/catogories.png" alt="Categories" width="320" />
+         <br />Categories
+      </td>
+      <td align="center">
+         <img src="screenshots/transaction.png" alt="Transactions" width="320" />
+         <br />Transactions
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <img src="screenshots/transfer.png" alt="Transfers" width="320" />
+         <br />Transfers
+      </td>
+      <td align="center">
+         <img src="screenshots/report.png" alt="Monthly report" width="320" />
+         <br />Monthly report
+      </td>
+   </tr>
+</table>
 
 ## Tech Stack
 
