@@ -61,11 +61,15 @@ Modern MERN-based personal finance management app with authentication, multi-acc
    </tr>
 </table>
 
+---
+
 ## Tech Stack
 
 - Frontend: React, Vite, React Router DOM, Axios, Tailwind CSS, Recharts
 - Backend: Node.js, Express.js, JWT, bcrypt.js, Mongoose
 - Database: MongoDB Atlas
+
+---
 
 ## Features
 
@@ -76,6 +80,8 @@ Modern MERN-based personal finance management app with authentication, multi-acc
 - Category management
 - Dashboard analytics and monthly reports
 - Print-friendly monthly report view
+
+---
 
 ## Setup
 
@@ -105,6 +111,8 @@ Modern MERN-based personal finance management app with authentication, multi-acc
    ```bash
    npm run dev --workspace frontend
    ```
+---
+
 ## Live Demo
 
 ### Frontend (Vercel)
@@ -116,6 +124,7 @@ https://finance-management-application-wjq0.onrender.com/api
 ### Health Check
 https://finance-management-application-wjq0.onrender.com/health
 
+---
 
 ## Environment Variables
 
@@ -134,6 +143,7 @@ NODE_ENV=production
 VITE_API_URL=https://finance-management-application-wjq0.onrender.com/api
 ```
 
+---
 
 ## Deployment
 
@@ -141,6 +151,7 @@ VITE_API_URL=https://finance-management-application-wjq0.onrender.com/api
 - **Backend:** Render
 - **Database:** MongoDB Atlas (Cluster0)
 
+---
 
 ## Future Improvements
 
@@ -152,6 +163,7 @@ VITE_API_URL=https://finance-management-application-wjq0.onrender.com/api
 - Mobile responsive improvements
 - Notifications and reminders
 
+---
 
 ## Notes
 
