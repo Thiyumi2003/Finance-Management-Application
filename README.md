@@ -145,6 +145,18 @@ VITE_API_URL=https://finance-management-application-wjq0.onrender.com/api
 
 ---
 
+## Future Improvements
+
+- Email verification
+- Password reset functionality
+- Budget planning and spending limits
+- Multi-currency support
+- Dark mode
+- Mobile responsive improvements
+- Notifications and reminders
+
+---
+
 ## Notes
 
 - The landing page is the default entry point.
