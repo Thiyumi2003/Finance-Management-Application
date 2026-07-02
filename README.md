@@ -171,6 +171,8 @@ VITE_API_URL=https://finance-management-application-wjq0.onrender.com/api
 - Authenticated routes are grouped under `/dashboard`.
 - The monthly report view is designed to print cleanly.
 
+---
+
 ## Author
 
 **Thiyumi Upasari**
