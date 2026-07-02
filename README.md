@@ -105,9 +105,58 @@ Modern MERN-based personal finance management app with authentication, multi-acc
    ```bash
    npm run dev --workspace frontend
    ```
+## Live Demo
+
+### Frontend (Vercel)
+https://finance-management-application-fron.vercel.app/
+
+### Backend API (Render)
+https://finance-management-application-wjq0.onrender.com/api
+
+### Health Check
+https://finance-management-application-wjq0.onrender.com/health
+
+---
+
+## Environment Variables
+
+### Backend (.env)
+
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_atlas_connection_string
+JWT_SECRET=your_jwt_secret
+NODE_ENV=production
+```
+
+### Frontend (.env)
+
+```env
+VITE_API_URL=https://finance-management-application-wjq0.onrender.com/api
+```
+
+---
+
+## Deployment
+
+- **Frontend:** Vercel
+- **Backend:** Render
+- **Database:** MongoDB Atlas (Cluster0)
+
+---
 
 ## Notes
 
 - The landing page is the default entry point.
 - Authenticated routes are grouped under `/dashboard`.
 - The monthly report view is designed to print cleanly.
+
+## Author
+
+**Thiyumi Upasari**
+
+Undergraduate | Full Stack Developer
+
+GitHub: https://github.com/Thiyumi2003
+
+LinkedIn: https://www.linkedin.com/in/thiyumi-upasari
