@@ -116,7 +116,6 @@ https://finance-management-application-wjq0.onrender.com/api
 ### Health Check
 https://finance-management-application-wjq0.onrender.com/health
 
----
 
 ## Environment Variables
 
@@ -135,7 +134,6 @@ NODE_ENV=production
 VITE_API_URL=https://finance-management-application-wjq0.onrender.com/api
 ```
 
----
 
 ## Deployment
 
@@ -143,7 +141,6 @@ VITE_API_URL=https://finance-management-application-wjq0.onrender.com/api
 - **Backend:** Render
 - **Database:** MongoDB Atlas (Cluster0)
 
----
 
 ## Future Improvements
 
@@ -155,7 +152,6 @@ VITE_API_URL=https://finance-management-application-wjq0.onrender.com/api
 - Mobile responsive improvements
 - Notifications and reminders
 
----
 
 ## Notes
 
